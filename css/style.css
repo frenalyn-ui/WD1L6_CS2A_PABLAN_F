@@ -1,0 +1,35 @@
+/* Small custom styles (Bootstrap does the rest) */
+body {
+  padding-top: 70px;
+  background: #05274e;   /* dark blue background */
+  color: #f2f3f7;        /* white text */
+}
+
+h2 { border-bottom: 1px solid #98bdee; padding-bottom: 6px; margin-bottom: 20px; width: 100%; margin-top: 35px; }
+/* Darker navy blue navbar and footer */
+.navbar { background: #055292; }
+footer { background: #063e7e; border-top: 1px solid #617ece !important; }
+
+/* Links on the burgundy background */
+main a:not(.btn) { color: #e4d4ba; }
+
+/* Cards stay white so they are easy to read */
+.card { color: #7196db; }
+
+.photo { width: 180px; height: 180px; object-fit: cover; border-radius: 50%; border: 4px solid #5782d1; margin-top: 15px; margin-bottom: 16px; }
+.card-img-top { aspect-ratio: 18 / 6; object-fit: cover; object-position: top; width: 100%; height: 220px; padding: 4px; border-radius: 6px; }
+#projects .card-body { display: block; flex-direction: column; justify-content: space-between; text-align: center; padding: 12px 0 0 0; flex-grow: 1; }
+
+/* Center only the Design Philosophy and Contact sections */
+#philosophy, #contact { text-align: center; }
+#philosophy ul { list-style: none; padding: 0; }
+#contactForm { max-width: 400px; margin: 0 auto; padding-top: 40px; padding-bottom: 60px; scroll-margin-top: 60px; }
+.photo { margin-bottom: 14px; }
+
+/* Cards customization for design philosophy */
+.card { color: #a6cbee; background-color: #073b75; border: 1px solid #5782d1; padding-bottom: 55px; }
+
+/* Maglagay ng espasyo sa ibaba ng Projects section */
+#projects {padding-bottom: 30px; margin-bottom: 20px;}
+#projects .card {background-color: #b2cdf5 ; border: 1px solid #0c4896 ; color:#05274e; padding: 12px; display: flex; flex-direction: column; height: 100%;}
+
